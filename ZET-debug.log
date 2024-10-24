@@ -1,0 +1,38 @@
+[info] [2024-10-17T09:50:38.183Z] : 
+[info] [2024-10-17T09:50:38.190Z] : Click this URL to login to your Zoho Account
+[info] [2024-10-17T09:50:38.191Z] : https://accounts.zoho.com/oauth/v2/auth?client_id=1000.gnjph6g96nf23jd4u14tba2egykhik&scope=ZAPPS.apps.ALL%20AaaServer.profile.READ%20ZMProcessors.connectors.CREATE&response_type=code&access_type=offline&prompt=consent&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] [2024-10-17T09:50:38.191Z] : Note: To login to CN DC, update the above URL from accounts.zoho.com to accounts.zoho.com.cn
+[info] [2024-10-17T09:50:38.192Z] : 
+[debug] [2024-10-17T09:50:43.564Z] : DCType Of the user is us
+[debug] [2024-10-17T09:50:43.565Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request query omitted>
+
+[debug] [2024-10-17T09:50:44.473Z] : <<<< HTTP RESPONSE : 200
+Response Headers{"server":"ZGS","date":"Thu, 17 Oct 2024 09:50:45 GMT","content-type":"application/json;charset=UTF-8","content-length":"337","connection":"keep-alive","set-cookie":["zalb_b266a5bf57=a7f15cb1555106de5ac96d088b72e7c8; Path=/; Secure; HttpOnly","iamcsr=79a49e45-9f05-41a4-9b2a-3ac75fd9c16f;path=/;Secure;priority=high","_zcsr_tmp=79a49e45-9f05-41a4-9b2a-3ac75fd9c16f;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-10-17T09:50:44.481Z] : >>>> HTTP REQUEST : GET https://accounts.zoho.com/oauth/user/info 
+
+[debug] [2024-10-17T09:50:44.761Z] : <<<< HTTP RESPONSE : 200
+Response Headers{"server":"ZGS","date":"Thu, 17 Oct 2024 09:50:45 GMT","content-type":"application/json;charset=UTF-8","content-length":"111","connection":"keep-alive","set-cookie":["zalb_b266a5bf57=a711b6da0e6cbadb5e254290f114a026; Path=/; Secure; HttpOnly","iamcsr=97af385b-877b-4a91-8e7b-80f4d58a7ba4;path=/;Secure;priority=high","_zcsr_tmp=97af385b-877b-4a91-8e7b-80f4d58a7ba4;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"SAMEORIGIN","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-10-17T09:54:07.669Z] : i Command ZET cloud_run not applicable for the selected service as it is not mapped to ZET online model.
+[info] [2024-10-17T09:54:28.108Z] : i Waiting for response from Sigma....
+
+[debug] [2024-10-17T09:54:28.115Z] : > refreshing access token <
+[debug] [2024-10-17T09:54:28.116Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request query omitted>
+
+[debug] [2024-10-17T09:54:29.004Z] : <<<< HTTP RESPONSE : 200
+Response Headers{"server":"ZGS","date":"Thu, 17 Oct 2024 09:54:29 GMT","content-type":"application/json;charset=UTF-8","content-length":"248","connection":"keep-alive","set-cookie":["zalb_b266a5bf57=a711b6da0e6cbadb5e254290f114a026; Path=/; Secure; HttpOnly","iamcsr=ce221209-0b51-49e4-87fb-5445842b8f8a;path=/;Secure;priority=high","_zcsr_tmp=ce221209-0b51-49e4-87fb-5445842b8f8a;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-10-17T09:54:29.014Z] : >>>> HTTP REQUEST : GET https://sigma.zoho.com/workspace/restapi/workspace 
+Query params: {"workspace_type":1}
+
+[debug] [2024-10-17T09:54:30.342Z] : <<<< HTTP RESPONSE : 200
+Response Headers{"server":"ZGS","date":"Thu, 17 Oct 2024 09:54:31 GMT","content-type":"application/json;charset=UTF-8","content-length":"2","connection":"keep-alive","set-cookie":["zalb_4ae9145f4f=12f0a0b811da743f6066f489965ff7e9; Path=/; Secure; HttpOnly","zact=4340c8cb-d0a1-4541-8ccc-9740058b28ba;path=/;Secure;priority=high","_zcsr_tmp=4340c8cb-d0a1-4541-8ccc-9740058b28ba;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"SAMEORIGIN","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[error] [2024-10-17T09:54:30.344Z] : × Create a Workspace in Sigma by logging in to sigma.zoho.com.
+[debug] [2024-10-17T09:54:30.344Z] : Error: No Workspace found in Sigma.
+[info] [2024-10-17T09:54:39.050Z] : i Command ZET push not applicable for the selected service as it is not mapped to ZET online model.
+[info] [2024-10-17T09:54:56.855Z] : √ Logged as : adminzoho@mawaridfs.com
+[info] [2024-10-18T07:18:23.724Z] : i You're already logged in as adminzoho@mawaridfs.com

@@ -1,0 +1,11 @@
+{
+  "service": "CREATOR",
+  "cspDomains": {
+    "connect-src": [
+      "https://127.0.0.1:5000/app/forms/",
+      "https://*.zohostatic.com",
+      "https://*.sigmausercontent.com"
+    ]
+  },
+  "config": []
+}

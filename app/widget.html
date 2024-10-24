@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://js.zohostatic.com/creator/widgets/version/1.0/widgetsdk-min.js"></script>
+    <script type="text/javascript" src="js/helper.js"></script>
+    <script type="text/javascript" src="js/empTransfer.js"></script>
+    <script type="text/javascript" src="js/manPower.js"></script>
+    <script type="text/javascript" src="js/onboarding.js"></script>
+    <script type="text/javascript" src="js/insurance.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="Menu" id="Menu">
+        <div>
+          <p>Kindly Select the form you wish to submit</p>
+          <button id="manPowerButton" class="zc-button">
+            <span>Man Power Requistion Form</span>
+          </button>
+          <button id="OnboardingButton" class="zc-button">
+            <span>New Employee Onboarding</span>
+          </button>
+          <button id="InsuranceReqButton" class="zc-button">
+            <span>Insurance Request Form</span>
+          </button>
+          <button id="EmpTransferButton" class="zc-button">
+            <span>Employee Transfer Form</span>
+          </button>
+        </div>
+      </div>
+      <!-- This is where the form will be loaded dynamically -->
+      <div id="formContainer"></div>
+      <div class="Approval">
+        <table id="approvalTable">
+        </table>
+      </div>
+      <div class="Success" id="Success" hidden>
+        <div>
+          <img src="assets/check.jpg" style="mix-blend-mode: multiply;">
+        </div>
+        <div>
+          Thank you for your submission
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

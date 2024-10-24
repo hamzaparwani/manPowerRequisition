@@ -1,0 +1,247 @@
+<div class="Transfer" id="FormTransfer">
+    <table class="Header">
+      <tr>
+        <td width="30%"><img src="assets/AlBaraiLogo.png"></td>
+        <td width="40%">EMPLOYEE TRANSFER FORM</td>
+        <td width="30%">Ref No:<br>Form No:<br>Rev Date:</td>
+      </tr>
+    </table>
+    <table class="Survey Employee" >
+      <tr>
+        <th colspan="4">Releasing Company / Project Details</th>
+      </tr>
+      <tr>
+        <td>Date</td>
+        <td id="Date"></td>
+        <td>Employee ID</td>
+        <td><select id="Employee"></select></td>
+      </tr>
+      <tr>
+        <td>Name</td>
+        <td id="Name"></td>
+        <td>Company</td>
+        <td id="Company"></td>
+      </tr>
+      <tr>
+        <td>Deparment</td>
+        <td id="Department"></td>
+        <td>Project/Division</td>
+        <td id="Project"></td>
+      </tr>
+      <tr>
+        <td>Designation</td>
+        <td id="Designation"></td>
+        <td>Joining Date</td>
+        <td id="Joining_Date"></td>
+      </tr>
+      
+      <tr>
+        <td>Line Manager</td>
+        <td id="Line_Manager"></td>
+        <td>Mobile No.</td>
+        <td id="Mobile"></td>
+      </tr>
+      <tr>
+        <td>Gross Salary</td>
+        <td id="Gross_Salary"></td>
+        <td>Email Address</td>
+        <td id="Email"></td>
+      </tr>
+      <tr>
+        <td>Transfer Type</td>
+        <td colspan="3">
+          <input type="radio" name="Transfer_Type" value="Inter-Company">Inter-Company
+          <input type="radio" name="Transfer_Type" value="Inter-Project">Inter-Project
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4">Items Transferred</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" name="Items_Transferred" value="Vehicle & Registration Keys">Vehicle & Registration Keys</td>
+        <td><input type="checkbox" name="Items_Transferred" value="Sim Card and Device">Sim Card and Device</td>
+        <td><input type="checkbox" name="Items_Transferred" value="PPE">PPE</td>
+        <td><input type="checkbox" name="Items_Transferred" value="Security Pass">Security Pass</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" name="Items_Transferred" value="Tools & Equipment (Specify):">Tools & Equipment (Specify):</td>
+        <td><input type="text" id="Tools_Other"></td>
+        <td><input type="checkbox" name="Items_Transferred" value="Others">Others</td>
+        <td><input type="text" id="Others"></td>
+      </tr>
+      <tr>
+        <td>Disciplinary Record</td>
+        <td><input type="radio" name="Disciplinary" value="No">No</td>
+        <td><input type="radio" name="Disciplinary" value="Yes">Yes(Specify)</td>
+        <td><input type="text" id="Disciplinary_Remarks"></td>
+      </tr>
+      <tr>
+        <td>Time Duration</td>
+        <td><input type="radio" name="Time_Duration" value="Permenant">Permenant</td>
+        <td><input type="radio" name="Time_Duration" value="Temporary">Temporary(Specify Duration)</td>
+        <td><input type="text" id="Time_Remarks"></td>
+      </tr>
+    </table>
+    TimeSheet (Month/Year) <input type="text" id="Timesheet" style="width: auto;"> 
+    <table class="Survey TimeSheet">
+      <tr>
+        <th>Date</th>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+        <th>7</th>
+        <th>8</th>
+        <th>9</th>
+        <th>10</th>
+        <th>11</th>
+        <th>12</th>
+        <th>13</th>
+        <th>14</th>
+        <th>15</th>
+        <th>16</th>
+        <th>Total</th>
+      </tr>
+      <tr>
+        <td>Fulltime</td>
+        <td><input type="text" id="Fulltime1"></td>
+        <td><input type="text" id="Fulltime2"></td>
+        <td><input type="text" id="Fulltime3"></td>
+        <td><input type="text" id="Fulltime4"></td>
+        <td><input type="text" id="Fulltime5"></td>
+        <td><input type="text" id="Fulltime6"></td>
+        <td><input type="text" id="Fulltime7"></td>
+        <td><input type="text" id="Fulltime8"></td>
+        <td><input type="text" id="Fulltime9"></td>
+        <td><input type="text" id="Fulltime10"></td>
+        <td><input type="text" id="Fulltime11"></td>
+        <td><input type="text" id="Fulltime12"></td>
+        <td><input type="text" id="Fulltime13"></td>
+        <td><input type="text" id="Fulltime14"></td>
+        <td><input type="text" id="Fulltime15"></td>
+        <td><input type="text" id="Fulltime16"></td>
+        <td><input type="text" id="Total1"></td>
+      </tr>
+      <tr>
+        <td>Overtime</td>
+        <td><input type="text" id="Overtime1"></td>
+        <td><input type="text" id="Overtime2"></td>
+        <td><input type="text" id="Overtime3"></td>
+        <td><input type="text" id="Overtime4"></td>
+        <td><input type="text" id="Overtime5"></td>
+        <td><input type="text" id="Overtime6"></td>
+        <td><input type="text" id="Overtime7"></td>
+        <td><input type="text" id="Overtime8"></td>
+        <td><input type="text" id="Overtime9"></td>
+        <td><input type="text" id="Overtime10"></td>
+        <td><input type="text" id="Overtime11"></td>
+        <td><input type="text" id="Overtime12"></td>
+        <td><input type="text" id="Overtime13"></td>
+        <td><input type="text" id="Overtime14"></td>
+        <td><input type="text" id="Overtime15"></td>
+        <td><input type="text" id="Overtime16"></td>
+        <td><input type="text" id="Total2"></td>
+      </tr>
+      <tr>
+        <th>Date</th>
+        <th>17</th>
+        <th>18</th>
+        <th>19</th>
+        <th>20</th>
+        <th>21</th>
+        <th>22</th>
+        <th>23</th>
+        <th>24</th>
+        <th>25</th>
+        <th>26</th>
+        <th>27</th>
+        <th>28</th>
+        <th>29</th>
+        <th>30</th>
+        <th>31</th>
+        <th></th>
+        <th>Total</th>
+      </tr>
+      <tr>
+        <td>Fulltime</td>
+        <td><input type="text" id="Fulltime17"></td>
+        <td><input type="text" id="Fulltime18"></td>
+        <td><input type="text" id="Fulltime19"></td>
+        <td><input type="text" id="Fulltime20"></td>
+        <td><input type="text" id="Fulltime21"></td>
+        <td><input type="text" id="Fulltime22"></td>
+        <td><input type="text" id="Fulltime23"></td>
+        <td><input type="text" id="Fulltime24"></td>
+        <td><input type="text" id="Fulltime25"></td>
+        <td><input type="text" id="Fulltime26"></td>
+        <td><input type="text" id="Fulltime27"></td>
+        <td><input type="text" id="Fulltime28"></td>
+        <td><input type="text" id="Fulltime29"></td>
+        <td><input type="text" id="Fulltime30"></td>
+        <td><input type="text" id="Fulltime31"></td>
+        <td></td>
+        <td><input type="text" id="Total3"></td>
+      </tr>
+      <tr>
+        <td>Ovetime</td>
+        <td><input type="text" id="Ovetime17"></td>
+        <td><input type="text" id="Ovetime18"></td>
+        <td><input type="text" id="Ovetime19"></td>
+        <td><input type="text" id="Ovetime20"></td>
+        <td><input type="text" id="Ovetime21"></td>
+        <td><input type="text" id="Ovetime22"></td>
+        <td><input type="text" id="Ovetime23"></td>
+        <td><input type="text" id="Ovetime24"></td>
+        <td><input type="text" id="Ovetime25"></td>
+        <td><input type="text" id="Ovetime26"></td>
+        <td><input type="text" id="Ovetime27"></td>
+        <td><input type="text" id="Ovetime28"></td>
+        <td><input type="text" id="Ovetime29"></td>
+        <td><input type="text" id="Ovetime30"></td>
+        <td><input type="text" id="Ovetime31"></td>
+        <td></td>
+        <td><input type="text" id="Total4"></td>
+      </tr>
+    </table>
+    Remarks <textarea rows="4" id="Remarks"></textarea>
+    <table class="Survey Receiving">
+      <tr>
+        <th colspan="4">RECEIVING COMPANY / PROJECT DETAILS </th>
+      </tr>
+      <tr>
+        <td>Date Received</td>
+        <td id="Date_Received"></td>
+        <td>Company</td>
+        <td><select id="Receiving_Company"></select></td>
+      </tr>
+      <tr>
+        <td>Employee ID</td>
+        <td id="Emp_ID"></td>
+        <td>Department</td>
+        <td><select id="Receiving_Department"></select></td>
+      </tr>
+      <tr>
+        <td>Department</td>
+        <td><select id="Receiving_Designation"></select></td>
+        <td>Project/Division</td>
+        <td><select id="Receiving_Project"></select></td>
+      </tr>
+      <tr>
+        <td>Gross Salary</td>
+        <td id="Receiving_Gross"></td>
+        <td>Line Manager</td>
+        <td><select id="Receiving_Line_Manager"></select></td>
+      </tr>
+      <tr>
+        <td>Remarks</td>
+        <td colspan="3"><textarea id="Receiving_Remarks" rows="4"></textarea></td>
+      </tr>
+    </table>
+    <div class="Submit">
+      <button id="submitForm" class="zc-button">
+        <span>Submit</span>
+      </button>
+    </div>
+  </div>

@@ -1,0 +1,144 @@
+<div class="ManPower" id="FormManPower">
+    <table class="Header">
+      <tr>
+        <td width="30%"><img src="assets/AlBaraiLogo.png"></td>
+        <td width="40%">MAN POWER REQUISITION FORM - STAFF</td>
+        <td width="30%">Ref No:<br>Form No:<br>Rev Date:</td>
+      </tr>
+    </table>
+    <table class="Survey Hiring">
+      <tr>
+        <th colspan="4">To be completed by Hiring Department / BU </th>
+      </tr>
+      <tr>
+        <td>Date</td>
+        <td colspan ="3" id="Date"></td>
+      </tr>
+      <tr>
+        <td>Designation</td>
+        <td>
+          <select id="Designation"></select>
+          <input type="text" id="New_Designation">
+        </td>
+        <td colspan="2">
+          <input name="Title" value="New" checked type="radio">New Title
+          <input name="Title" value="Existing" type="radio">Existing Title
+        </td>
+      </tr>
+      <tr>
+        <td>Company</td>
+        <td><select id="Company"></select></td>
+        <td colspan="2" rowspan="2">*NOTE: New Title requisitions must be accompanied by a detailed Job Description </td>
+      </tr>
+      <tr>
+        <td>Department</td>
+        <td><select id="Department"></select></td>
+      </tr>
+      <tr>
+        <td>Project/Division</td>
+        <td><select id="Project"></select></td>
+        <td>No. Required</td>
+        <td><input type="text" id="No_Required"></td>
+      </tr>
+      <tr>
+        <td>Contract Term</td>
+        <td colspan="3">
+          <input name="Term" value="Permenant" type="radio">Permenant
+          <input name="Term" value="Temporary" type="radio">Temporary
+        </td>
+      </tr>
+      <tr>
+        <td>Justification</td>
+        <td colspan="3">
+          <textarea id="Justification"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>Skill Requirement</td>
+        <td colspan="3"><input type="text" id="Skill"></td>
+      </tr>
+      <tr>
+        <td>Qualification</td>
+        <td><input type="text" id="Qualification"></td>
+        <td>UAE Experience</td>
+        <td>
+          <input name="UAE_Experience" value="Yes" type="radio">Yes
+          <input name="UAE_Experience" value="No" type="radio">No
+        </td>
+      </tr>
+      <tr>
+        <td>Specific Skills</td>
+        <td><input type="text" id="Specific_Skills"></td>
+        <td>Salary Indication</td>
+        <td><input id="Salary_Indication" type="text"></td>
+      </tr>
+      <tr>
+        <td>Reason for Hire</td>
+        <td>
+          <input name="Reason" value="New" type="radio">New
+          <input name="Reason" value="Transfer" type="radio">Transfer
+        </td>
+        <td>Date Required</td>
+        <td><input id="Date_Required" type="date"></td>
+      </tr>
+      <tr>
+        <td>Replacement for Emp</td>
+        <td><select id="Replacement"></select></td>
+        <td>Emp Name.</td>
+        <td id="Emp_Name"></td>
+      </tr>
+      <tr>
+        <td>Replacement Position</td>
+        <td><input type="text" id="Replacement_Position"></td>
+        <td>Gross Salary</td>
+        <td id="Gross_Salary_Replacement"></td>
+      </tr>
+      <tr>
+        <td>Hiring Manager</td>
+        <td><input type="text" id="Hiring_Manager"></td>
+        <td>Designation</td>
+        <td id="Designation_Replacement"></td>
+      </tr>
+    </table>
+    <table class="Survey Budget" >
+      <tr>
+        <th colspan="4">BUDGET</th>
+      </tr>
+      <tr>
+        <td colspan="1">MANPOWER BUDGET FOR THE YEAR</td>
+        <td colspan="3"><input type="text" id="Manpower_Budget" style="width: auto;"></td>
+      </tr>
+      <tr>
+        <td>Budgeted Manpower</td>
+        <td>
+          <input name="Budgeted" value="Yes" type="radio">Yes
+          <input name="Budgeted" value="No" type="radio">No
+        </td>
+        <td>New Project</td>
+        <td>
+          <input name="New_Project" value="Yes" type="radio">Yes
+          <input name="New_Project" value="No" type="radio">No
+        </td>
+      </tr>
+      <tr>
+        <td>Vacancy to be filled</td>
+        <td>
+          <input name="Vacancy" value="Internal" type="radio">Internal
+          <input name="Vacancy" value="External" type="radio">External
+        </td>
+        <td>Budget Code</td>
+        <td>
+          <input type="text" id="Budget_Code">
+        </td>
+      </tr>
+      <tr>
+        <td>Remarks</td>
+        <td colspan="3"><input type="text" id="Budget_Remarks"></td>
+      </tr>
+    </table>
+    <div class="Submit">
+      <button id="submitForm" class="zc-button">
+        <span>Submit</span>
+      </button>
+    </div>
+</div>

@@ -1,0 +1,168 @@
+<div class="Insurance" id="FormInsurance">
+    <table class="Header">
+      <tr>
+        <td width="30%"><img src="assets/AlBaraiLogo.png"></td>
+        <td width="40%">INSURANCE REQUEST FORM</td>
+        <td width="30%">Ref No:<br>Form No:<br>Rev Date:</td>
+      </tr>
+    </table>
+    <table class="Survey Request">
+      <tr>
+        <th colspan="4">REQUEST DETAILS </th>
+      </tr>
+      <tr>
+        <td>Type of Request</td>
+        <td colspan="3">
+            <div>
+              <input name="Type" value="New" checked type="radio">Issue New Insurance
+              <input name="Type" value="Renewal" type="radio">Renewal
+              <input name="Type" value="Cancellation" type="radio">Cancellation
+            </div>
+            <div>
+              <input name="Type" value="Other" type="radio">Other(Please specify):
+              <input type="text" id="Comment">
+            </div>
+            
+        </td>
+      </tr>
+      <tr>
+        <td>Requesting for</td>
+        <td colspan="3">
+              <input name="Family" value="Spouse" checked type="radio">Spouse
+              <input name="Family" value="Children" type="radio">Children
+              <span id="AgeSect">
+              (<input type="radio" name="childrenAge" value="Under 18">Under 18
+              <input type="radio" name="childrenAge" value="Above 18">Above 18)  
+              </span>
+        </td>
+      </tr>
+    </table>
+    <table class="Survey Employee" >
+      <tr>
+        <th colspan="4">EMPLOYEE INFORMATION</th>
+      </tr>
+      <tr>
+        <td>Date</td>
+        <td id="Date"></td>
+        <td>Employee ID</td>
+        <td><select id="Employee"></select></td>
+      </tr>
+      <tr>
+        <td>Name</td>
+        <td id="Name"></td>
+        <td>Company</td>
+        <td id="Company"></td>
+      </tr>
+      <tr>
+        <td>Deparment</td>
+        <td id="Department"></td>
+        <td>Project/Division</td>
+        <td id="Project"></td>
+      </tr>
+      <tr>
+        <td>Designation</td>
+        <td id="Designation"></td>
+        <td>Joining Date</td>
+        <td id="Joining_Date"></td>
+      </tr>
+      
+      <tr>
+        <td>Line Manager</td>
+        <td id="Line_Manager"></td>
+        <td>Mobile No.</td>
+        <td id="Mobile"></td>
+      </tr>
+      <tr>
+        <td>Nationality</td>
+        <td id="Nationality"></td>
+        <td>Email Address</td>
+        <td id="Email"></td>
+      </tr>
+      <tr>
+        <td>Salary Range</td>
+        <td colspan="3">
+          <input type="radio" name="Salary_Range" value="Below 5000">Below 5000
+          <input type="radio" name="Salary_Range" value="Above 5000">Above 5000
+        </td>
+      </tr>
+    </table>
+    <table class="Survey Dependents">
+      <tr>
+        <th colspan="4">DEPENDENTS INFORMATION</th>
+      </tr>
+      <tr>
+        <td>Spouse Name</td>
+        <td colspan="3"> 
+              <input type="text" id="Spouse">
+        </td>
+      </tr>
+      <tr>
+        <td>Child 1</td>
+        <td colspan="3"> 
+          <input type="text" id="Child1">
+        </td>
+      </tr>
+      <tr>
+        <td>Child 2</td>
+        <td colspan="3"> 
+          <input type="text" id="Child2">
+        </td>
+      </tr>
+      <tr>
+        <td>Child 3</td>
+        <td colspan="3"> 
+          <input type="text" id="Child3">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4"><span>* حسب قانون رقم 23 لسنة 2005 بشأن الضمان الصحي بإمارة أبوظبي ولائحته التنفيذية وتعاميم الضمان الصحي والذي يتضمن بأن الشركة مسؤولة عن  
+
+          توفير تغطية الضمان الصحي وحوزة بطاقة تأمين صحي صالحة دائماً لدى موظفيها وعائلاتهم (زوجة واحدة، وثلاثة أطفال تحت 18 سنة) . 
+         
+        </span><br><br>
+         <span>
+         * Health Insurance Law 23 of 2005 and by-laws and all related circulars, the company responsible for the procurement of health insurance coverage and possession of valid health insurance at all times for their employees and their families (1 spouse and 3 children under 18). 
+        </span></td>
+      </tr>
+      <tr>
+        <td>Child 4</td>
+        <td colspan="3"> 
+          <input type="text" id="Child4">
+        </td>
+      </tr>
+      <tr>
+        <td>Child 5</td>
+        <td colspan="3"> 
+          <input type="text" id="Child5">
+        </td>
+      </tr>
+      <tr>
+        <td>Child 6</td>
+        <td colspan="3"> 
+          <input type="text" id="Child6">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4">سيتم خصم تكلفة البطاقة من راتب الموظف . * 
+          * The Insurance Card Cost will be deducted from the employee salary. 
+        </td>
+      </tr>
+    </table>
+    <table class="Survey Hiring">
+      <tr>
+        <th colspan="4">ACKNOWLEDGEMENT </th>
+      </tr>
+      <tr class="confirm">
+        <td>
+          <input type="checkbox" id="confirm" name="confirm"> 
+          ​I have no objection & agreed to proceed as per the company policy  <br>
+          أنا أوفق على الاجراء المطلوب حسب سياسية الشركة ولا مانع لدي من ذلك​ 
+        </td>
+      </tr>
+    </table>
+    <div class="Submit">
+      <button id="submitForm" class="zc-button">
+        <span>Submit</span>
+      </button>
+    </div>
+  </div>
