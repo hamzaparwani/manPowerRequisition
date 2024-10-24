@@ -181,7 +181,7 @@ $(document).ready(async function() {
             }
         });
         //Some properties should be passed only if certain value is true so handle that
-        if(recordData.data['Title'] == "New"){
+        if(recordData.data['Title'] == "New Title"){
             delete recordData.data.Designation;
         }
         else{

@@ -89,4 +89,4 @@ function loadForm(formUrl) {
     const url = "forms/"+formUrl;
     $("#formContainer").load(url);
     $("#Menu").hide();  // Hide menu when form is loaded
-  }
+}
